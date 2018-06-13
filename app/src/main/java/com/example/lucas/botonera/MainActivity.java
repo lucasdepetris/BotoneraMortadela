@@ -107,6 +107,10 @@ public class MainActivity extends AppCompatActivity {
         audiosPasar.add(new Audio("Chris electro",R.raw.chriselectropablo,2,"Chris"));
         audiosPasar.add(new Audio("Dale pablo dale",R.raw.dalepablodale,2,"Chris"));
         audiosPasar.add(new Audio("Vamo betooo",R.raw.vamobeto,2,"Chris"));
+        audiosPasar.add(new Audio("Baby no vamo a dormir",R.raw.babynovamosadormir,1,"Pablo"));
+        audiosPasar.add(new Audio("Maluma Baby",R.raw.malumababy,1,"Pablo"));
+        audiosPasar.add(new Audio("Dura Dura",R.raw.duradura,1,"Pablo"));
+        audiosPasar.add(new Audio("Cuando yo la vi",R.raw.cuandoyolavi,1,"Pablo"));
         audios = audiosPasar;
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
         recicler.setLayoutManager(linearLayoutManager);
